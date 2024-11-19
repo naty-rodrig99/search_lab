@@ -3,7 +3,7 @@ from itertools import product
 import numpy as np
 from fishing_game_core.shared import OBS_TO_MOVES, ACT_TO_MOVES
 from copy import deepcopy
-
+ 
 
 class State:
     def __init__(self, number_of_fish):
